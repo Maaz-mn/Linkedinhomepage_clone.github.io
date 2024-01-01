@@ -35,3 +35,9 @@ border-radius: 100px;
   padding-left: 10px;
   padding-right: 10px;
 }
+.searchbutton:hover{
+  background-color: rgb(182, 179, 179);
+}
+.search:active{
+  padding-right: 100px;
+}
