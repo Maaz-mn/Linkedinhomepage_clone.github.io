@@ -61,6 +61,7 @@ body{
   background-size: cover;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .profileimg{
  align-items: center;
@@ -68,4 +69,7 @@ body{
  margin-top: 40px;
  border-radius: 100%;
 
+}
+.viewedno{
+  color: rgb(2, 153, 195);
 }
