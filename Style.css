@@ -46,7 +46,7 @@ border-radius: 100px;
   width: 250px;
   height: 400px;
   margin-top: 20px;
-  border: 2px solid;
+  border: 2px inset;
   border-radius: 20px;
   text-align: center;
   display: inline-block;
@@ -86,7 +86,7 @@ body{
   border-radius: 20px;
   position: relative;
   bottom: 250px;
-  border: 2px solid black;
+  border: 2px inset;
 }
 .posting-bar-img{
   border-radius: 100%;
@@ -115,4 +115,41 @@ color: rgb(8, 139, 183);
 }
 .fa-newspaper{
   color: red;
+}
+.feed{
+  width: 50%;
+  height: 650px;
+  color: white;
+  display: inline-block;
+  border-style:inset;
+  margin-left: 280px;
+  position: relative;
+  bottom: 220px;
+  border-radius: 20px;
+}
+.feed-profile{
+  border-radius: 100% ;
+  margin: 10px 30px;
+}
+.feed-username{
+  color: black;
+  position: relative;
+  bottom: 60px;
+  right: 20px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.status{
+  position: relative;
+  bottom: 60px;
+  left: 150px;
+  color: black;
+}
+.feed-img{
+  margin-left: 20px;
+}
+.post-Feed-icons{
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(74, 74, 74);
 }
