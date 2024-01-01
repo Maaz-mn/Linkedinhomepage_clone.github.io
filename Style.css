@@ -22,6 +22,7 @@
   height: 30px;
   width: 30px;
 border-radius: 100px;
+cursor: pointer;
 }
 .navlist{
  list-style: none;
@@ -152,4 +153,8 @@ color: rgb(8, 139, 183);
   display: flex;
   justify-content: space-evenly;
   color: rgb(74, 74, 74);
+  cursor: pointer;
+}
+.post-Feed-icons:active{
+  color: rgb(11, 11, 128);
 }
