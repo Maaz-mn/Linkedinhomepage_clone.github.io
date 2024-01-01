@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+ display: flex;
+ flex-wrap: wrap;
+ background-color: rgb(0, 137, 249);
+ color: rgb(255, 248, 248);
+ justify-content: space-around;
+ align-items: center;
+ padding: 15px 5px;
+}
+.tittle{
+
+}
+.search{
+ padding: 5px;
+ border-radius: 10px;
+}
+.searchbutton{
+padding: 5px;
+border-radius: 15px;
+}
+.navlist{
+ list-style: none;
+ display: flex;
+}
+.navlinks{
+  margin: 0px 10px;
+}
