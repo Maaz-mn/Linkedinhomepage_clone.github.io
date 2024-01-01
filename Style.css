@@ -79,13 +79,13 @@ body{
   margin-bottom: 30px;
   background-color: white;
   width: 50%;
-  height: 100px;
+  height: 150px;
   display: inline-block;
   /* margin-bottom: 280px; */
   margin-left: 20px;
   border-radius: 20px;
   position: relative;
-  bottom: 270px;
+  bottom: 250px;
   border: 2px solid black;
 }
 .posting-bar-img{
@@ -95,9 +95,24 @@ body{
 }
 .post-text{
   position: relative;
-  bottom: 55px;
+  bottom: 35px;
   left: 10px;
-  width: 500px;
-  height: 40px;
+  width: 600px;
+  height: 50px;
   border-radius: 10px;
+  display: inline-flex;
+}
+.post-bar-icons{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.fa-image{
+color: rgb(8, 139, 183);
+}
+.fa-calendar-days{
+  color: rgb(255, 183, 0);
+}
+.fa-newspaper{
+  color: red;
 }
