@@ -19,8 +19,9 @@
  border-radius: 10px;
 }
 .searchbutton{
-padding: 5px;
-border-radius: 15px;
+  height: 30px;
+  width: 30px;
+border-radius: 100px;
 }
 .navlist{
  list-style: none;
