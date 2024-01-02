@@ -5,8 +5,8 @@
 .navbar{
  display: flex;
  flex-wrap: wrap;
- background-color: rgb(0, 137, 249);
- color: rgb(255, 248, 248);
+ background-color: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);
  justify-content: space-around;
  align-items: center;
  padding: 15px 5px;
@@ -30,11 +30,18 @@ cursor: pointer;
 }
 .navlinks{
   margin: 0px 10px;
+  cursor: pointer;
+  color: rgb(128, 126, 126);
+}
+.tittle{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .in{
-  background-color: rgb(0, 46, 139);
+  background-color: rgb(0, 143, 246);
+  color: white;
   padding-left: 10px;
   padding-right: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .searchbutton:hover{
   background-color: rgb(182, 179, 179);
@@ -157,4 +164,7 @@ color: rgb(8, 139, 183);
 }
 .post-Feed-icons:active{
   color: rgb(11, 11, 128);
+}
+.navlinks:hover{
+  color: rgb(0, 0, 0);
 }
