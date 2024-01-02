@@ -1,60 +1,69 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.navbar{
- display: flex;
- flex-wrap: wrap;
- background-color: rgb(255, 255, 255);
- color: rgb(0, 0, 0);
- justify-content: space-around;
- align-items: center;
- padding: 15px 5px;
- position: sticky;
- top: 0px;
- margin-top: 20px;
- z-index: 999;
-}
-.tittle{
 
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 5px;
+  position: sticky;
+  top: 0px;
+  margin-top: 20px;
+  z-index: 999;
 }
-.search{
- padding: 5px;
- border-radius: 10px;
+
+.tittle {}
+
+.search {
+  padding: 5px;
+  border-radius: 10px;
 }
-.searchbutton{
+
+.searchbutton {
   height: 30px;
   width: 30px;
-border-radius: 100px;
-cursor: pointer;
+  border-radius: 100px;
+  cursor: pointer;
 }
-.navlist{
- list-style: none;
- display: flex;
+
+.navlist {
+  list-style: none;
+  display: flex;
 }
-.navlinks{
+
+.navlinks {
   margin: 0px 10px;
   cursor: pointer;
   color: rgb(128, 126, 126);
 }
-.tittle{
+
+.tittle {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-.in{
+
+.in {
   background-color: rgb(0, 143, 246);
   color: white;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 5px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-.searchbutton:hover{
+
+.searchbutton:hover {
   background-color: rgb(182, 179, 179);
 }
-.search:active{
+
+.search:active {
   padding-right: 100px;
 }
-.sidebox{
+
+.sidebox {
   background-color: rgb(255, 255, 255);
   width: 250px;
   height: 400px;
@@ -64,11 +73,13 @@ cursor: pointer;
   text-align: center;
   display: inline-block;
 }
-body{
+
+body {
   margin: 20px 20px 20px 20px;
   background-color: rgba(209, 202, 202, 0.863);
 }
-.profilebox{
+
+.profilebox {
   background-image: url(./pictures/medium-shot-man-wearing-vr-glasses.jpg);
   width: 250px;
   height: 80px;
@@ -78,17 +89,20 @@ body{
   border-top-right-radius: 15px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-.profileimg{
- align-items: center;
- /* margin-left: 90px; */
- margin-top: 40px;
- border-radius: 100%;
+
+.profileimg {
+  align-items: center;
+  /* margin-left: 90px; */
+  margin-top: 40px;
+  border-radius: 100%;
 
 }
-.viewedno{
+
+.viewedno {
   color: rgb(2, 153, 195);
 }
-.postingbar{
+
+.postingbar {
   margin-bottom: 30px;
   background-color: white;
   width: 50%;
@@ -101,12 +115,14 @@ body{
   bottom: 250px;
   border: 2px inset;
 }
-.posting-bar-img{
+
+.posting-bar-img {
   border-radius: 100%;
-   margin-left: 20px;
-   margin-top: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
-.post-text{
+
+.post-text {
   position: relative;
   bottom: 35px;
   left: 10px;
@@ -115,36 +131,43 @@ body{
   border-radius: 10px;
   display: inline-flex;
 }
-.post-bar-icons{
+
+.post-bar-icons {
   display: flex;
   justify-content: space-evenly;
-  
+
 }
-.fa-image{
-color: rgb(8, 139, 183);
+
+.fa-image {
+  color: rgb(8, 139, 183);
 }
-.fa-calendar-days{
+
+.fa-calendar-days {
   color: rgb(255, 183, 0);
 }
-.fa-newspaper{
+
+.fa-newspaper {
   color: red;
 }
-.feed{
+
+.feed {
   width: 50%;
   height: 650px;
   color: white;
   display: inline-block;
-  border-style:inset;
+  border-style: inset;
   margin-left: 280px;
   position: relative;
   bottom: 220px;
   border-radius: 20px;
 }
-.feed-profile{
-  border-radius: 100% ;
+
+.feed-profile {
+  border-radius: 100%;
   margin: 10px 30px;
 }
-.feed-username{
+
+.feed-username {
   color: black;
   position: relative;
   bottom: 60px;
@@ -152,28 +175,34 @@ color: rgb(8, 139, 183);
   font-weight: bolder;
   font-size: 20px;
 }
-.status{
+
+.status {
   position: relative;
   bottom: 60px;
   left: 150px;
   color: black;
 }
-.feed-img{
+
+.feed-img {
   margin-left: 20px;
 }
-.post-Feed-icons{
+
+.post-Feed-icons {
   display: flex;
   justify-content: space-evenly;
   color: rgb(74, 74, 74);
   cursor: pointer;
 }
-.post-Feed-icons:active{
+
+.post-Feed-icons:active {
   color: rgb(11, 11, 128);
 }
-.navlinks:hover{
+
+.navlinks:hover {
   color: rgb(0, 0, 0);
 }
-.chatbox{
+
+.chatbox {
   background-color: gray;
   position: fixed;
   bottom: 0%;
@@ -185,13 +214,72 @@ color: rgb(8, 139, 183);
   padding: 5px;
   border-radius: 5px;
 }
-.chat{
+
+.chat {
   color: white;
   margin-top: 5px;
   margin-left: 10px;
 }
-.fa-arrow-up{
+
+.fa-arrow-up {
   margin-top: 5px;
   margin-right: 10px;
   color: white;
+}
+
+.suggestion-box {
+  border: 2px solid black;
+  height: 400px;
+  width: 250px;
+  position: sticky;
+  left: 80%;
+  bottom: 20%;
+  margin-top: 180px;
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: 400px;
+  margin-top: 20px;
+  border: 2px inset;
+  border-radius: 20px;
+  
+
+}
+.words{
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 10px;
+}
+.google{
+  position: relative;
+  left: 30%;
+  bottom: 45%;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pic1{
+  border-radius: 100%;
+  margin-left:10px;
+}
+.pic2{
+  border-radius: 100%;
+  margin-left:10px;
+}
+.pic3{
+  border-radius: 100%;
+  margin-left:10px;
+}
+.linkedin{
+  position: relative;
+  left: 30%;
+  bottom: 35%;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.youtube{
+  position: relative;
+  left: 30%;
+  bottom: 20%;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
